@@ -26,6 +26,6 @@ python train.js
 It'll output the current accuracy and save the classifer in two pickle files.
 
 ## The data
-The data comes courtesy of the excellent [Trump Twitter Archive](http://www.trumptwitterarchive.com/) by 
+The data comes courtesy of the excellent [Trump Twitter Archive](http://www.trumptwitterarchive.com/) by Brendan Brown. Raw csv's are included in the `data` folder, but the definitive source is [Brown's Github repository.](https://github.com/bpb27/trump_tweet_data_archive)
 
 
