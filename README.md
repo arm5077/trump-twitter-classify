@@ -8,7 +8,7 @@ This led folks to conclude that it probably was actually Trump tweeting in posts
 
 Alas! Now that he's president, Trump is using his Android phone [less and less.](https://www.theatlantic.com/technology/archive/2017/03/trump-android-tweets/520869/) So we have to find a different to tell if it's him.
 
-This classifier was featured in this _Atlantic_ story: 
+This classifier was featured in this _Atlantic_ story: [A Bot That Can Tell When It's Really Donald Trump Who's Tweeting](https://www.theatlantic.com/politics/archive/2017/03/a-bot-that-detects-when-donald-trump-is-tweeting/521127/)
 
 ## The classifier
 This script uses tweets from 2016 and part of 2017 (before Trump began switching over to using the iPhone almost exclusively) to fuel a bag-of-words Naive Bayes classifier. It parses tweet text into one of two categories: `trump` (similar to previous tweets posted by the Android) and `staff` (similiar to tweets posted by an other device).
