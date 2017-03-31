@@ -13,7 +13,7 @@ This classifier was featured in this _Atlantic_ story: [A Bot That Can Tell When
 ## The classifier
 This script uses tweets from 2016 and part of 2017 (before Trump began switching over to using the iPhone almost exclusively) to fuel a bag-of-words Naive Bayes classifier. It parses tweet text into one of two categories: `trump` (similar to previous tweets posted by the Android) and `staff` (similiar to tweets posted by an other device).
 
-It discards common words and narrows down the feature list to the top 100 words to prevent overfitting. Even so, I fear this model is biased to Campaign Trump, not Current Trump — it ranks highly terms like `bernie` and `cruz`, which are't quite as relevant today.
+It discards common words and narrows down the feature list to the top 500 words to prevent overfitting. Even so, I fear this model is biased to Campaign Trump, not Current Trump — it ranks highly terms like `bernie` and `cruz`, which are't quite as relevant today. (**Update:** I've now added 2016 campaign-y stuff to a custom list of stopwords.)
 
 ## Installation
 Clone the repository. Then run: 
